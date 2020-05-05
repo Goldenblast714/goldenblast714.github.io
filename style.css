@@ -48,3 +48,13 @@ article {
   background: rgb(16, 27, 27);
   border-radius: 1em;
 }
+
+#cubey {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(icon.png);
+  background-size: cover;
+}
+
+#shootgame {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://github.com/Goldenblast714/Codename-Shootgame/raw/master/icon.png);
+  background-size: cover;
+}
