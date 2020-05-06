@@ -27,7 +27,6 @@ a {
   color: white;
 }
 
-
 @supports (font-variation-settings: normal) {
   html {
     font-family: 'Inter var', sans-serif;
@@ -51,7 +50,7 @@ article {
 }
 
 #shootgame {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://github.com/Goldenblast714/Codename-Shootgame/raw/master/icon.png);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://raw.githubusercontent.com/Goldenblast714/Codename-Shootgame/master/icon.png);
   background-size: 100% 100%;
 }
 
