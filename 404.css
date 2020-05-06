@@ -5,6 +5,8 @@ html {
 
 html {
   width: 100%;
+  text-align: center;
+  color: white;
   height: 100%;
   background: linear-gradient(to top right, red, blue);
   display: flex;
@@ -16,9 +18,7 @@ body {
   padding: 1em;
   border-radius: 2em;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.274);
-  text-align: center;
   background: #222233;
-  color: white;
 }
 
 @supports (font-variation-settings: normal) {
