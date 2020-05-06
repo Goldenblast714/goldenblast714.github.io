@@ -12,6 +12,8 @@ main {
 }
 
 header {
+  padding-bottom: 1em;
+  padding-top: 1em;
   background: linear-gradient(to top right, red, rgb(173, 64, 64));
   width: 100%;
 }
