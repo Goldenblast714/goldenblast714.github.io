@@ -2,6 +2,7 @@
 html, body {
   font-family: 'Inter', sans-serif;
   background: #222233;
+  text-align: center;
   margin: 0;
   color: white;
 }
@@ -35,9 +36,6 @@ title {
   }
 }
 
-h1, header {
-  text-align: center;
-}
 
 title {
   display: block;
@@ -46,7 +44,6 @@ title {
 article {
   padding: 1em;
   margin: 1em;
-  text-align: center;
   background: rgb(16, 27, 27);
   border-radius: 1em;
 }
@@ -65,20 +62,26 @@ article {
 
 /* #region */
 
-.previewbox {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .discord-logo {
   transform: scale(0.7);
   transform-origin: 24px 24px;
 }
 
-.discord-corner {
-  transform: rotate(-45deg);
-  transform-origin: 60px 60px;
+.speechbubble {
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.discordtext {
+  opacity: 0.75;
+}
+
+.discordtext:hover {
+  opacity: 1;
+}
+
+.discordtext a {
+  text-decoration: none;
 }
 
 .discord-logo.swirl-animation .discord-outer-layer {
