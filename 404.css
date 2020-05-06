@@ -35,10 +35,8 @@ a {
   color: black;
 }
 
-h1 {
+title {
   font-size: 10em;
-}
-
-p {
-  font-size: 2em;
+  display: block;
+  font-weight: bold;
 }
