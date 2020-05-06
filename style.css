@@ -12,11 +12,14 @@ main {
   margin: 20px auto;
 }
 
-header {
+title {
   padding-bottom: 1em;
   padding-top: 1em;
   background: linear-gradient(to top, red, rgb(173, 64, 64));
   width: 100%;
+  font-weight: bold;
+  font-size: 2em;
+  display: block;
 }
 
 a {
@@ -24,19 +27,11 @@ a {
   color: white;
 }
 
-title {
-  font-weight: bold;
-  font-size: 2em;
-}
 
 @supports (font-variation-settings: normal) {
   html {
     font-family: 'Inter var', sans-serif;
   }
-}
-
-title {
-  display: block;
 }
 
 article {
@@ -63,6 +58,7 @@ article {
 article:hover {
   background-size: 200% 200% !important;
 }
+
 /* Discord banner */
 
 /* #region */
