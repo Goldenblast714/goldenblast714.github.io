@@ -45,18 +45,24 @@ article {
   margin: 1em;
   background: rgb(16, 27, 27);
   border-radius: 1em;
+  transition: background-size 1s;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 #cubey {
-  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(icon.png);
-  background-size: cover;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(icon.png);
+  background-size: 50% 100%;
 }
 
 #shootgame {
-  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://github.com/Goldenblast714/Codename-Shootgame/raw/master/icon.png);
-  background-size: cover;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://github.com/Goldenblast714/Codename-Shootgame/raw/master/icon.png);
+  background-size: 100% 100%;
 }
 
+article:hover {
+  background-size: 200% 200% !important;
+}
 /* Discord banner */
 
 /* #region */
