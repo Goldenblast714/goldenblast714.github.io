@@ -15,8 +15,7 @@ main {
 header {
   padding-bottom: 1em;
   padding-top: 1em;
-  background: linear-gradient(to left, red, black);
-  /* rgb(173, 64, 64) */
+  background: linear-gradient(to top, red, rgb(173, 64, 64));
   width: 100%;
 }
 
@@ -35,7 +34,6 @@ title {
     font-family: 'Inter var', sans-serif;
   }
 }
-
 
 title {
   display: block;
