@@ -60,12 +60,17 @@ article {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://github.com/Goldenblast714/Codename-Shootgame/raw/master/icon.png);
   background-size: cover;
 }
-/* #region */ 
+
+/* Discord banner */
+
+/* #region */
+
 .previewbox {
   position: absolute;
   top: 0;
   left: 0;
 }
+
 .discord-logo {
   transform: scale(0.7);
   transform-origin: 24px 24px;
