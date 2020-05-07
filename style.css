@@ -24,8 +24,9 @@ a {
   color: white;
 }
 
-header a {
-  border-bottom: solid white 0.1em;
+footer a {
+  border-bottom: solid skyblue 0.1em;
+  color: skyblue
 }
 
 title {
