@@ -12,19 +12,26 @@ main {
   margin: 20px auto; */
 }
 
-title {
+header {
   padding-bottom: 1em;
   padding-top: 1em;
   background: linear-gradient(to top, red, rgb(173, 64, 64));
   width: 100%;
-  font-weight: bold;
-  font-size: 2em;
-  display: block;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+header a {
+  border-bottom: solid white 0.1em;
+}
+
+title {
+  font-weight: bold;
+  font-size: 2em;
+  display: block;
 }
 
 @supports (font-variation-settings: normal) {
@@ -33,7 +40,7 @@ a {
   }
 }
 
-article  {
+article {
   display: inline-block;
   width: max-content;
   padding: 1em;
